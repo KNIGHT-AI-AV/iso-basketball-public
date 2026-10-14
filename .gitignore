@@ -1,0 +1,50 @@
+# Unprocessed media and local working material stay outside version control.
+.codex-local/
+.private/
+private/
+reference-media/
+references/
+raw-media/
+attachments/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.m4a
+*.mp3
+*.wav
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.zip
+*.7z
+
+# Third-party reference media is never committed to this public repository.
+research-references/media/
+
+# Credentials and local machine state.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+
+# Future generated engine/build artifacts; no engine is selected yet.
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+.godot/
+node_modules/
+__pycache__/
